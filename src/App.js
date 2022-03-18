@@ -10,7 +10,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 function App(props) {
 	
-	
 	let [myArr,
 		setArr] = useState(props.arr);
 	let [show,
@@ -18,7 +17,7 @@ function App(props) {
 	let [n,
 		setN] = useState(1);
 	
-	console.log("Hello");
+	console.log("Hello JS");
 
 	function changing(e, index, type) {
 		//alert(e.target.value + " " + index + " " + type)
